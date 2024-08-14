@@ -1,4 +1,4 @@
-//alert('hello bitch')
+alert('hello bitch')
 /*
     OBJETIVO - quando clicarmos no botão temos que mostrar a imagem de fundo correspondente
     
@@ -39,7 +39,7 @@ botoesCarrossel.forEach((botao, indice) => {
         informacoesAtiva.classList.remove("ativa");
 
         //Passo 8 - mostrar a informação do dragão referente ao botão clicado
-        informacoesAtiva[indice].classList.add("ativa");
+        informacoes[indice].classList.add("ativa");
 
     })
 })
